@@ -1,6 +1,10 @@
 @import url("common.css");
 @import url("side_menu.css");
 
+main h2, main h3 {
+    padding-top: 40px;
+    margin-top: -40px;
+}
 main h3 {
     font-size: 1.2rem;
     font-weight: 700;

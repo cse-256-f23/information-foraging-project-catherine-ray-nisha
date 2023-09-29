@@ -22,6 +22,10 @@
     margin-bottom: 1em;
 }
 
+h3 {
+    margin-top: 3rem;
+}
+
 #small-image-collection {
     overflow: auto;
     clear: both;

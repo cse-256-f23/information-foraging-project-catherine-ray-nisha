@@ -1,12 +1,33 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+main h2, main h3 {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+main h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+main .tiny {
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+main .overview {
+    margin-bottom: 2rem;
+}
 main ul {
-    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 .classroom {
